@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#navbar{
+        padding:20px;
+        height: 25px;
+        background-color:Black;
+}
+
+.no-underline{
+    text-decoration: none;
+    margin-right:354px;
+
+}
+.underline{
+    text-decoration: none;
+    margin-left:0px;
+    }
+
+#logo{
+    color:green;
+    margin-right:400px;
+    margin-left:100px;
+}
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px 0; /* Optional for better spacing */
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu img, div.scrollmenu video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px; /* Optional for rounded corners */
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  
+
+.cart-wrapper {
+    /* Use this to position the cart where you want it */
+    position: absolute; /* or 'fixed', depending on your needs */
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+}
+
+.cart-circle {
+    width: 40px; /* Fixed size of the circle */
+    height: 40px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures the image doesn't overflow the circle */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-image {
+    width: 60%; /* Image size relative to the circle */
+    height: auto;
+}
+
+
+a{
+    color:white;
+    margin-right: 180px;
+  
+}
+
+button{
+     background-color:#fff;
+     color:black;
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.product button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+

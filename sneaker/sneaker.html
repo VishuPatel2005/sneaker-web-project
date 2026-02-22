@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>sneaker web page</title>
+    <link rel="stylesheet" href="s.css">
+    <link rel="stylesheet" href="sty1.css">
+  
+    
+</head>
+<body>
+    <header>
+      
+        <div id="navbar">
+            <a id="logo">CDC</a>
+            <a href="signup.html" class="no-underline">Account</a>
+            <a href="cart.html" class="underline">My Cart</a>
+          
+            <section id="product1" class="section-p1">
+                <pre>        
+
+                                  
+                </pre>
+                
+                <div class="pro-container">
+                    <div class="pro" data-id="1"> 
+                        <img src="images/b1.webp" alt="Jarritos SB Dunk">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jarritos SB Dunk</h5>
+                            <h4>₹70,000</h4> 
+                        </center> 
+                        </div> 
+                        
+                        
+                        <div class="cart-wrapper">
+                            <div class="cart-circle"  onclick="addToCart(1, 'Jarritos SB Dunk', 70000,'images/b1.webp')">
+                                <img src="cart_img.jpeg" alt="Cart" class="cart-image" >
+                                 
+                                
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="pro" data-id="2"> 
+                        <img src="images/b2.webp" alt="Nike SB Dunk Low Born X Raised One Block At A Time">
+                        <div class="des">
+                        <center>
+                            <span>NIKE</span>
+                            <h5>Nike SB Dunk Low Born X Raised One Block At A Time</h5>                          
+                            <h4>₹69,000</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(2, 'Nike SB Dunk Low Born X Raised', 69000,'images/b2.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="3"> 
+                        <img src="images/b3.webp" alt="Nike SB Dunk Low Supreme Rammellzee">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Nike SB Dunk Low Supreme Rammellzee</h5>
+                            <h4>₹99,999</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(3, 'Nike SB Dunk Low Supreme Rammellzee', 99999,'images/b3.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+
+                    <div class="pro" data-id="4"> 
+                        <img src="images/b4.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>SB DUNK LOW BEN & JERRY'S</h5>
+                            <h4>₹139,000</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(4, 'SB DUNK LOW BEN & JERRYS', 139000,'images/b4.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                     </div>
+                     <div class="pro" data-id="5"> 
+                        <img src="images/b5.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Nike SB Dunk Low Grateful Dead Bears Green</h5>
+                            
+                            <h4>₹99,999</h4>  
+                            </center>
+                        </div> 
+                        <div class="cart-wrapper">
+                            <div class="cart-circle" onclick="addToCart(5, 'Nike SB Dunk Low Grateful Dead Bears Green', 99999,'images/b5.webp')">
+                                <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pro" data-id="6"> 
+                        <img src="images/b6.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Nike SB Dunk Low StrangeLove Skateboards (Regular Box)</h5>
+                            
+                            <h4>₹97,999</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(6, 'Nike SB Dunk Low StrangeLove Skateboards (Regular Box)', 97999,'images/b6.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                     </div>
+                    
+                     
+                     <div class="pro" data-id="7"> 
+                        <img src="images/b7.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Nike SB Dunk Low Futura Laboratories Bleached Aqua</h5>
+                            
+                            <h4>₹69,000</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(7, 'Nike SB Dunk Low Futura Laboratories Bleached Aqua', 69000,'images/b7.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                     </div>
+                     <div class="pro" data-id="8"> 
+                        <img src="images/b8.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Nike SB Dunk Low The Powerpuff Girls Bubbles (Pre School Kids)</h5>
+                            
+                            <h4>₹38,999</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(8, 'Nike SB Dunk Low The Powerpuff Girls Bubbles (Pre School Kids)', 38999,'images/b8.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="9"> 
+                        <img src="images/b9.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Nike SB Dunk Low Crenshaw Skate Club</h5>
+                            
+                            <h4>₹40,000</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(9, 'Nike SB Dunk Low Crenshaw Skate Club', 40000,'images/b9.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="10"> 
+                        <img src="images/b10.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>NIKE SB DUNK LOW FRAME SKATE HABIBI</h5>
+                           
+                            <h4>₹68,999</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(10, 'NIKE SB DUNK LOW FRAME SKATE HABIBI', 68999,'images/b10.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="11"> 
+                        <img src="images/c1.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro Military Blue</h5>
+                            
+                            <h4>₹32,999</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(11, 'Jordan 4 Retro Military Blue', 32999,'images/c1.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="12"> 
+                        <img src="images/c2.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro Travis Scott Cactus Jack</h5>
+                          
+                            <h4>₹110,000</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(12, 'Jordan 4 Retro Travis Scott Cactus Jack', 110000,'images/c2.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="13"> 
+                        <img src="images/c3.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro Kaws Black</h5>
+                           
+                            <h4>₹149,999</h4> 
+                            </center>
+                             
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(13, 'Jordan 4 Retro Kaws Black', 149999,'images/c3.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="14"> 
+                        <img src="images/c4.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro Metallic Orange</h5>
+                            
+                            <h4>₹38,999</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(14, 'Jordan 4 Retro Metallic Orange', 38999,'images/c4.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="15"> 
+                        <img src="images/c5.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro SE Craft Medium Olive </h5>
+                            
+                            <h4>₹38,000</h4>
+                            </center>  
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(15, 'Jordan 4 Retro SE Craft Medium Olive', 38000,'images/c5.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="16"> 
+                        <img src="images/c6.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro Zen Master</h5>
+                            
+                            <h4>₹50,000</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(16, 'Jordan 4 Retro Zen Master', 50000,'images/c6.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="17"> 
+                        <img src="images/c7.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro SB Pine Green</h5>
+                           
+                            <h4>₹64,999</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(17, 'Jordan 4 Retro SB Pine Green', 64999,'images/c7.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="18"> 
+                        <img src="images/c8.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro SE Craft Medium Olive</h5>
+                    
+                            <h4>₹25,000</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(18, 'Jordan 4 Retro SE Craft Medium Olive', 25000,'images/c8.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="19"> 
+                        <img src="images/c9.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro Lightning</h5>
+                            
+                            <h4>₹28,999</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(19, 'ordan 4 Retro Lightning', 28999,'images/c9.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="20"> 
+                        <img src="images/c10.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 4 Retro Off-White Sail</h5>
+                           
+                            <h4>₹119,999</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(20, 'Jordan 4 Retro Off-White Sail', 119999,'images/c10.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="21"> 
+                        <img src="images/s1.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High OG Hand Crafted</h5>
+                           
+                            <h4>₹19,999</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(21, 'ordan 1 Retro High OG Hand Crafted', 19999,'images/s1.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="22"> 
+                        <img src="images/s2.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High Travis Scott</h5>
+                            
+                            <h4>₹144,999</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(22 ,'Jordan 1 Retro High Travis Scott', 144999,'images/s2.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="23"> 
+                        <img src="images/s3.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High OG SP Fragment x Travis Scott</h5>
+                            
+                            <h4>₹260,000</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(23, 'Jordan 1 Retro High OG SP Fragment x Travis Scott', 260000,'images/s3.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="24"> 
+                        <img src="images/s4.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High OG Chicago Lost and Found</h5>
+                            
+                            <h4>₹38,999</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(24, 'Jordan 1 Retro High OG Chicago Lost and Found', 38999,'images/s4.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="25"> 
+                        <img src="images/s5.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High OG UNC Toe</h5>
+                            
+                            <h4>₹21,999</h4>
+                            </center>  
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(24, 'Jordan 1 Retro High OG UNC Toe',21999,'images/s5.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="25"> 
+                        <img src="images/s6.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High J Balvin</h5>
+                           
+                            <h4>₹36,000</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(25, 'Jordan 1 Retro High J Balvin', 36000,'images/s6.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>  
+                    <div class="pro" data-id="26"> 
+                        <img src="images/s7.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High Dior</h5>
+                           
+                            <h4>₹749,999</h4>
+                            </center>  
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(26, 'Jordan 1 Retro High Dior',749999,'images/s7.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div> 
+                     <div class="pro" data-id="27"> 
+                        <img src="images/s8.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High Off-White Chicago</h5>
+                            
+                            <h4>₹449,999</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(27, 'Jordan 1 Retro High Off-White Chicago', 449999,'images/s8.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div> 
+                     <div class="pro" data-id="28"> 
+                        <img src="images/s9.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High Tokyo Bio Hack</h5>
+                           
+                            <h4>₹23,000</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(28, 'Jordan 1 Retro High Tokyo Bio Hack', 23000,'images/s9.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>  
+                    <div class="pro" data-id="29"> 
+                        <img src="images/s10.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>Jordan 1 Retro High OG Washed Pink</h5>
+                           
+                            <h4>₹17,999</h4> 
+                            </center> 
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(29, 'Jordan 1 Retro High OG Washed Pink',17999,'images/s10.webp')"> 
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="30"> 
+                        <img src="images/d1.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>JORDAN 1 RETRO LOW OG SP TRAVIS SCOTT OLIVE</h5>
+                            
+                            <h4>₹109,999</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(30, 'JORDAN 1 RETRO LOW OG SP TRAVIS SCOTT OLIVE',109999,'images/d1.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    <div class="pro" data-id="31"> 
+                        <img src="images/d2.webp" alt="">
+                        <div class="des">
+                            <center>
+                            <span>NIKE</span>
+                            <h5>JORDAN 1 RETRO LOW OG SP TRAVIS SCOTT CANARY</h5>
+                           
+                            <h4>₹48,999</h4>  
+                            </center>
+                        </div> 
+                         <div class="cart-wrapper">
+        <div class="cart-circle" onclick="addToCart(31, 'JORDAN 1 RETRO LOW OG SP TRAVIS SCOTT CANARY', 48999,'images/d2.webp')">
+            <img src="cart_img.jpeg" alt="Cart" class="cart-image">
+        </div>
+    </div>
+                    </div>
+                    
+                </div>
+                <pre>                                
+                                  
+                </pre>
+            
+        </div>
+    
+        </header>
+      
+    <!-- <footer id="f" > 
+        made with &hearts;
+        <br>this is footer area
+    </footer> -->
+    
+ 
+    <script src="popup.js"></script>
+    
+</body>
+</html>
