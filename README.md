@@ -8,20 +8,5 @@ An e-commerce style sneaker store application.
 - Add to cart functionality
 - Clean UI layout
 
-## Technologies Used
-- (Add frontend technology)
-- (Add backend technology)
-- (Add database if used)
-
 ## Project Objective
 To simulate a basic e-commerce platform focused on sneaker products.
-
-## Future Improvements
-- User login/signup
-- Payment integration
-- Order tracking
-- Admin dashboard
-
----
-
-Made with by Vishu Patel
